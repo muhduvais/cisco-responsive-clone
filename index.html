@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="main.css">
+    <title>Cisco</title>
+</head>
+<body class="">
+    <main>
+        <!-- hovering help button -->
+    <div class="help" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <i class="fa-regular fa-message"></i>
+    </div>
+    <!-- hidden container -->
+    <div class="hidden-container">
+        <div class="hi-heading">
+            <h2>Contact Cisco</h2>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="chat text-white">
+            <i class="fa-regular fa-message"></i>
+            <span>Get a call from Sales</span>
+        </div>
+        <div class="chat text-white">
+            <i class="fa-solid fa-headset"></i>
+            <span>Contact Sales via Email</span>
+        </div>
+        <div class="chat text-white">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact Sales via Email</span>
+        </div>
+        <div class="chat text-white">
+            <i class="fa-solid fa-phone"></i>
+            <span> Call Sales: 1-800-121-3117
+                9:00am-6:00pm</span>
+        </div>
+        <div class="chat text-white">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <span>Product / Technical Support</span>
+        </div>
+    </div>
+    <!-- pre-header -->
+    <div class="pre-header bg-custom-grey d-none d-lg-flex align-items-center justify-content-end px-5" style="min-height: 35px; z-index: 5;">
+        <a class="px-3 fs-7" href="#">How to Buy</a>
+        <a class="px-3 fs-7" href="#">Partners</a>
+        <a class="px-3 fs-7" href="#"><i class="fa-regular fa-user fs-7"></i> Login</a>
+        <a class="px-3 fs-7" href="#"><i class="fa-solid fa-globe fs-7"></i> EN IN</a>
+    </div>
+    <!-- header -->
+    <header>
+        <nav class="d-flex align-items-center justify-content-between px-3 px-lg-5 bg-white" style="height: 52px;">
+            <!-- logo -->
+        <div class="lg-setting d-flex align-items-center justify-content-between">
+            <div class="logo d-flex align-items-center">
+                <svg class="pe-3" xmlns="http://www.w3.org/2000/svg" width="60" height="57" viewBox="0 0 108 57" role="img">
+                    <title id="fw-c-header__logo-title">Cisco.com India</title>
+                    <defs>
+                        <path d="M0 22.769a2.348 2.348 0 0 0 3.935 1.545c.434-.403.7-.955.744-1.545v-5.2a2.34 2.34 0 0 0-4.679 0v5.2" id="bar_short" class="bar"></path>
+                        <path d="M12.95 22.769a2.349 2.349 0 0 0 2.34 2.171 2.346 2.346 0 0 0 2.339-2.171V11.112a2.341 2.341 0 0 0-4.679 0V22.77" id="bar_tall" class="bar"></path>
+                        <path d="M25.832 27.464a2.345 2.345 0 0 0 4.678 0V2.249a2.342 2.342 0 0 0-4.678 0v25.215" id="bar_grande" class="bar"></path>
+                        <path d="M24.026 56.277v-5.002l-.098.043a9.253 9.253 0 0 1-3.605.915 5.303 5.303 0 0 1-3.63-1.07 4.644 4.644 0 0 1-1.58-2.244 5.395 5.395 0 0 1-.106-3 4.6 4.6 0 0 1 1.609-2.566 4.823 4.823 0 0 1 2.528-1.09 8.332 8.332 0 0 1 4.774.895l.108.056v-5.03l-.228-.061a12.78 12.78 0 0 0-4.552-.596 10.534 10.534 0 0 0-4.065.93 9.29 9.29 0 0 0-3.329 2.572 10.014 10.014 0 0 0-.182 12.18 9.546 9.546 0 0 0 5.292 3.403c2.211.538 4.528.456 6.697-.234l.367-.101" id="cisco_c"></path>
+                    </defs>
+                    <g fill="#00bceb" fill-rule="evenodd">
+                        <use href="#cisco_c"></use>
+                        <use href="#cisco_c" x="49.5"></use>
+                        <path d="M41.69 52.125l-.019 4.308.315.054c.989.185 1.987.313 2.99.385a18.1 18.1 0 0 0 2.642.051c.842-.06 1.675-.218 2.48-.468a6.862 6.862 0 0 0 2.573-1.371 5.19 5.19 0 0 0 1.498-2.148 5.912 5.912 0 0 0-.03-4.324 4.852 4.852 0 0 0-1.343-1.862 5.568 5.568 0 0 0-1.97-1.147l-3.25-1.206a1.742 1.742 0 0 1-.887-.845 1.107 1.107 0 0 1 .036-.986 1.29 1.29 0 0 1 .217-.291 1.75 1.75 0 0 1 .48-.347c.363-.18.755-.293 1.158-.337a6.76 6.76 0 0 1 2.072.022c.81.088 1.613.231 2.402.43l.168.037v-3.974l-.31-.067a21.14 21.14 0 0 0-2.444-.435 12.545 12.545 0 0 0-3.213-.014 6.945 6.945 0 0 0-3.699 1.488 4.908 4.908 0 0 0-1.58 2.178 5.984 5.984 0 0 0-.003 4.05c.242.65.63 1.237 1.136 1.714.437.422.932.78 1.47 1.065.708.38 1.458.675 2.235.878.257.077.512.158.766.243l.385.141.11.045c.38.136.726.35 1.018.628.202.19.358.423.455.683.06.237.061.485.003.723a1.536 1.536 0 0 1-.744.892 3.691 3.691 0 0 1-1.239.387 9 9 0 0 1-1.92.097 21.973 21.973 0 0 1-2.507-.334c-.433-.09-.864-.19-1.291-.303l-.16-.04zM30.546 56.607h4.73V37.846h-4.73zM85.305 43.386a4.934 4.934 0 1 1 6.157 7.711 4.934 4.934 0 0 1-6.157-7.71m-6.867 3.848A9.87 9.87 0 0 0 90.44 56.72a9.629 9.629 0 0 0 3.157-17.729 9.934 9.934 0 0 0-15.16 8.244"></path>
+                        <use href="#bar_short" x="0"></use>
+                        <use href="#bar_tall" x="0"></use>
+                        <use href="#bar_grande" x="0"></use>
+                        <use href="#bar_tall" x="25.875"></use>
+                        <use href="#bar_short" x="51.75"></use>
+                        <use href="#bar_tall" x="51.75"></use>
+                        <use href="#bar_grande" x="51.75"></use>
+                        <use href="#bar_tall" x="77.625"></use>
+                        <use href="#bar_short" x="103.375"></use>
+                    </g>
+                </svg>
+                <a class="d-none d-lg-block px-3 fs-6" href="#">Products and Services</a>
+                <a class="d-none d-lg-block px-3 fs-6" href="#">Solutions</a>
+                <a class="d-none d-lg-block px-3 fs-6" href="#">Support</a>
+                <a class="d-none d-lg-block px-3 fs-6" href="#">Learn</a>
+            </div>
+            <div class="right-setting d-none d-lg-block">
+                <a class="px-4 fs-6" href="#">Explore Cisco</a>
+                <a href="#">Search <img src="img/download.svg" width="25" height="25" alt=""></a>
+            </div>
+        </div>
+        
+        <!-- login -->
+        <div class="login d-flex align-items-center d-lg-none">
+            <!-- text -->
+            <a href="#"><span class="login-text text-nowrap fs-7 px-6">Log in</span></a>
+            <!-- serach-icon -->
+            <img class="px-4" src="img/download.svg" width="70" height="70" alt="">
+            <!-- hamburger -->
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                <i class="fa-solid fa-bars fs-1"></i>
+            </button>
+            <!-- menu-text -->
+            <span class="menu-text-d d-none d-lg-none px-2">MENU</span>
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasTopLabel"></h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <!-- offcanvas body -->
+    <div class="menu-ops d-flex justify-content-between px-1 pb-4">
+        <div class="col1">Products and Services</div>
+        <div class="col2"><i class="fa-solid fa-angle-right"></i></div>
+    </div>
+    <div class="menu-ops d-flex justify-content-between px-1 pb-4">
+        <div class="col1">Solutions</div>
+        <div class="col2"><i class="fa-solid fa-angle-right"></i></div>
+    </div>
+    <div class="menu-ops d-flex justify-content-between px-1 pb-4">
+        <div class="col1">Support</div>
+        <div class="col2"><i class="fa-solid fa-angle-right"></i></div>
+    </div>
+    <div class="menu-ops d-flex justify-content-between px-1 pb-4">
+        <div class="col1">Learn</div>
+        <div class="col2"><i class="fa-solid fa-angle-right"></i></div>
+    </div>
+    <div class="menu-ops d-flex justify-content-between px-1 pb-2">
+        <div class="col1">Explore Cisco</div>
+    </div>
+    <div class="menu-ops d-flex justify-content-between border-top-text px-1 py-2">
+        <div class="col1">How to buy</div>
+    </div>
+    <div class="menu-ops d-flex justify-content-between border-top-text px-1 py-2">
+        <div class="col1">Partners</div>
+    </div>
+    <div class="menu-ops d-flex justify-content-between border-top-text px-1 py-2">
+        <div class="col1"><i class="fa-solid fa-globe fs-7"></i> EN IN</div>
+    </div>
+  </div>
+</div>
+        </div>
+        </nav>
+    </header>
+    <!-- hero-image -->
+    <div class="hero-image">
+        <picture>
+            <source srcset="img/hero1.webp" media="(min-width:1024px)">
+            <source srcset="img/hero2.webp" media="(min-width:600px)">
+            <source srcset="img/hero3.webp">
+            <img class="" src="img/hero4.webp" alt="Cisco + Splunk logo">
+        </picture>
+	</div>
+    <!-- first content -->
+    <div class="first-content container-fluid d-flex flex-column text-center align-items-center justify-content-center py-6 px-2">
+        <h1 class="fs-0 fw-light">It’s a new day for your data.</h1>
+        <p class="fs-6 py-1" style="width: 90%; max-width: 100%;">This is the start of something special. We’re very happy to share that Splunk is now a Cisco company.</p>
+        <a class="first-content-btn fs-6" href="#">Find out more</a>
+    </div>
+    <!-- downloads -->
+    <!-- col 1 -->
+    <div class="container p-6 py-4">
+        <div class="row">
+            <div class="col-6 col-md-4 col-lg-2 col-xl-2 p-2 py-3">
+                <a class="d-flex flex-column align-items-center justify-content-center" href="#">
+                    <img src="img/icon_downloads.svg" width="30" height="30" alt="">
+                    <span class="text-nowrap">Downloads</span>
+                </a>
+            </div>
+        <!-- col 2 -->
+        <div class="col-6 col-md-4 col-lg-2 col-xl-2 p-2 py-3" py-3>
+            <a class="d-flex flex-column align-items-center justify-content-center" href="#">
+                <img src="img/icon_certifications.svg" width="30" height="30" alt="">
+                <span class="text-nowrap">certifications</span>
+            </a>
+        </div>
+        <!-- col 3 -->
+        <div class="col-6 col-md-4 col-lg-2 col-xl-2 p-2 py-3">
+            <a class="d-flex flex-column align-items-center justify-content-center" href="#">
+                <img src="img/icon_design-guides.svg" width="30" height="30" alt="">
+                <span class="text-nowrap">Cisco Validated</span>
+            </a>
+        </div>
+        <!-- col 4 -->
+        <div class="col-6 col-md-4 col-lg-2 col-xl-2 p-2 py-3">
+            <a class="d-flex flex-column align-items-center justify-content-center" href="#">
+                <img src="img/icon_training.svg" width="30" height="30" alt="">
+                <span class="text-nowrap">Training</span>
+            </a>
+        </div>
+        <!-- col 5 -->
+        <div class="col-6 col-md-4 col-lg-2 col-xl-2 p-2 py-3">
+            <a class="d-flex flex-column align-items-center justify-content-center" href="#">
+                <img src="img/icon_community.svg" width="30" height="30" alt="">
+                <span class="text-nowrap">Community</span>
+            </a>
+        </div>
+        <!-- col 6 -->
+        <div class="col-6 col-md-4 col-lg-2 col-xl-2 p-2 py-3">
+            <a class="d-flex flex-column align-items-center justify-content-center" href="#">
+                <img src="img/icon_careers.svg" width="30" height="30" alt="">
+                <span class="text-nowrap">Careers</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    <!-- cards section -->
+    <div class="container-fluid d-flex flex-column align-items-center justify-content-center px-3 py-1 mb-4">
+        <!-- heading -->
+        <h1 class="text-center px-2 py-3 fs-2">Simplified security to meet you anywhere</h1>
+        <!-- cards -->
+        <div class="row cards-section d-flex flex-column flex-lg-row align-items-center justify-content-center">
+            <!-- card-1 -->
+            <div class="col-umns shadow col-12 col-xl-4 my-4 mx-3 px-0" style="width: 20rem;">
+                <img src="img/card-1.avif" class="card-img-top w-100" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">User Protection Suite</h5>
+                  <p class="card-text">Get secure access to any application, on any device, from anywhere get secure access to any application, to support zero trust with zero friction.</p>
+                  <a href="#" class="btn d-flex align-items-center text-primary underline"><span class="pe-2">Explore User Protection</span> <i class="fa-solid fa-angle-right fs-6"></i></a>
+                </div>
+              </div>
+              <!-- card-2 -->
+            <div class="col-umns shadow col-12 col-xl-4 my-4 mx-3 px-0" style="width: 20rem;">
+                <img src="img/card-2.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cloud Protection Suite</h5>
+                  <p class="card-text">Get the powerful, flexible framework for a hybrid and multi-cloud world that protects all your apps, data, and clouds.</p>
+                  <a href="#" class="btn d-flex align-items-center text-primary underline"><span class="pe-2">Explore Cloud Protection</span> <i class="fa-solid fa-angle-right fs-6"></i></a>
+                </div>
+              </div>
+              <!-- card-3 -->
+            <div class="col-umns shadow col-12 col-xl-4 my-4 mx-3 px-0" style="width: 20rem;">
+                <img src="img/card-3.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Breach Protection Suite</h5>
+                  <p class="card-text">Protect your business from sophisticated threats by accelerating detection and response and simplifying experiences.</p>
+                  <a href="#" class="btn d-flex align-items-center text-primary underline"><span class="pe-2">Explore Breach Protection </span> <i class="fa-solid fa-angle-right fs-6"></i></a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- /////////////////////// -->
+    <!-- 2nd card section -->
+    <div class="container-fluid d-flex flex-column align-items-center justify-content-center px-3 py-1 mb-4">
+        <!-- 2nd cards -->
+        <div class="row cards-section d-flex flex-column flex-lg-row align-items-start ms-2 justify-content-center">
+            <!-- card-1 -->
+            <div class="col-umns2 col-12 col-xl-4 my-4 px-0 ms-4" style="width: 20rem;">
+                <img src="img/card-4.avif" class="card-img-top w-100" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Solve SASE challenges with SD-WAN</h5>
+                  <p class="card-text pb-2">The move to a cloud-first strategy creates new challenges. Cisco Catalyst SD-WAN can help you navigate them.</p>
+                  <a class="first-content-btn fs-7" href="#">Explore User Protection</a>
+                  <a href="#" class="btn  d-flex align-items-center text-primary pt-4"><span class="pe-2 fs-7">Discover network security</span> <i class="fa-solid fa-angle-right fs-7"></i></a>
+                </div>
+              </div>
+              <!-- card-2 -->
+            <div class="col-umns2 col-12 col-xl-4 my-4 px-0 ms-4" style="width: 20rem;">
+                <img src="img/card5.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">How hybrid should work</h5>
+                  <p class="card-text pb-2">Flexible hybrid work solutions to keep your teams connected, protected, and thriving</p>
+                  <a class="first-content-btn fs-7" href="#">Explore workplaces</a>
+                  <a href="#" class="btn  d-flex align-items-center text-primary pt-4"><span class="pe-2 fs-7">Design your foundation</span> <i class="fa-solid fa-angle-right fs-7"></i></a>
+                </div>
+              </div>
+              <!-- card-3 -->
+            <div class="col-umns2 col-12 col-xl-4 my-4 px-0 ms-4" style="width: 20rem;">
+                <img src="img/card6.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">See what happened when Royal Caribbean tested our app solutions</h5>
+                  <p class="card-text pb-2">Learn how Royal Caribbean uses FSO to enhance application performance, optimise resources, and strengthen security for a better customer experience.</p>
+                  <a class="first-content-btn fs-7" href="#">Explore case study</a>
+                  <a href="#" class="btn  d-flex align-items-center text-primary pt-4"><span class="pe-2 fs-7">Explore Cisco SASE </span> <i class="fa-solid fa-angle-right fs-7"></i></a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- video section -->
+    <div class="video-container container-fluid d-flex flex-column align-items-center text-center mb-5">
+        <h2>Stopping attackers is simpler than ever</h2>
+        <p>From the network to the cloud, respond quickly and confidently to the most sophisticated cyberattacks. </p>
+        <iframe class="cisco-video1 mb-4 mt-3" width="424" height="238" src="https://www.youtube.com/embed/MgLDQGKmDqg" title="Cisco Full-Stack Observability. We&#39;re Here For You." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <!-- news and events section -->
+    <div class="news-container container-fluid row px-5">
+        <!-- heading -->
+        <h2 class="text-center text-lg-start py-5">News and Events</h2>
+        <!-- news -->
+        <div class="news col-lg-4">
+                <h4 class=" pb-2 fs-6 fw-bold">Webinar</h4>
+                <h3 class=" pb-2 fs-5">Cisco Secure Networking: Unifying Networking and Security in a Hybrid World</h3>
+                <p class=" fs-6">Learn how organisations can manage the complexities of a hybrid environment, and how Cisco's extensive portfolio can provide end-to-end secure networking, delivering seamless secure user experiences.</p>
+                <a href="#" class="btn d-flex align-items-center text-primary pb-5 ps-0"><span class="pe-2 fs-6">Watch now</span> <i class="fa-solid fa-angle-right fs-7"></i></a>
+        </div>
+        <!-- news -->
+        <div class="news col-lg-4">
+                <h4 class="pb-2 fs-6 fw-bold">Press release</h4>
+                <h3 class="pb-2 fs-5">Innovations in Cisco Observability Platform</h3>
+                <p class="fs-6">Cisco unveils a series of new capabilities on the Cisco Observability Platform</p>
+                <a href="#" class="btn d-flex align-items-center text-primary pb-5 ps-0"><span class="pe-2 fs-6">Read press release</span> <i class="fa-solid fa-angle-right fs-7"></i></a>
+        </div>
+        <!-- news -->
+        <div class="news col-lg-4">
+                <h4 class="pb-2 fs-6 fw-bold">News</h4>
+                <h3 class="pb-2 fs-5">2023 The State of Security Resilience in APJC Report</h3>
+                <p class="fs-6">Learn how organisations can manage the complexities of a hybrid environment, and how Cisco's extensive portfolio can provide end-to-end secure networking, delivering seamless secure user experiences.</p>
+                <a href="#" class="btn d-flex align-items-center text-primary pb-5 ps-0"><span class="pe-2 fs-6">Read now</span> <i class="fa-solid fa-angle-right fs-7"></i></a>
+        </div>
+        <div class="more-links d-flex align-items-center justify-content-center mx-0 py-5">
+            <a href="#" class="d-flex align-items-center text-primary pb-5 px-3"><span class="pe-2 fs-6">More News</span> <i class="fa-solid fa-angle-right fs-7"></i></a>
+            <a href="#" class="d-flex align-items-center text-primary pb-5 px-3"><span class="pe-2 fs-6">More Events</span> <i class="fa-solid fa-angle-right fs-7"></i></a>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer-section py-2">
+        <!-- quick liknnks -->
+        <div class="quick-links d-flex flex-column flex-lg-row text-lg-center align-items-start justify-content-center p-3">
+            <div class="heading-sec d-flex align-items-center justify-content-between w-100">
+                <h4 class="link-head-color fs-5 fw-bold d-lg-none">Quick Links</h4>
+                <i class="arrow-down1 fa-solid fa-angle-down d-lg-none"></i>
+            </div>
+            <div class="hidden-links1 d-flex flex-column pe-10 w-100">
+                <a class="link-color fs-6 py-2" href="#">About Cisco</a>
+                <a class="link-color fs-6 py-2" href="#">Contact Us</a>
+                <a class="link-color fs-6 py-2" href="#">Careers</a>
+                <a class="link-color fs-6 py-2" href="#">Meet our Partners</a>
+            </div>
+        </div>
+        <hr>
+        <!-- Resources and Legal -->
+        <div class="quick-links2 d-flex flex-column flex-lg-row text-lg-center align-items-start justify-content-center p-3">
+            <div class="heading-sec d-flex align-items-center justify-content-between w-100">
+                <h4 class="link-head-color fs-5 fw-bold d-lg-none">Resources and Legal</h4>
+                <i class="arrow-down2 fa-solid fa-angle-down d-lg-none"></i>
+            </div>
+            <div class="hidden-links2 d-flex flex-column pe-10 w-100">
+                <a class="link-color fs-6 py-2" href="#">Help</a>
+                <a class="link-color fs-6 py-2" href="#">Terms & Conditions</a>
+                <a class="link-color fs-6 py-2" href="#">Privacy Statement</a>
+                <a class="link-color fs-6 py-2" href="#">Cookies</a>
+                <a class="link-color fs-6 py-2" href="#">E-Waste Recycling Program</a>
+                <a class="link-color fs-6 py-2" href="#">Trademarks</a>
+                <a class="link-color fs-6 py-2" href="#">Supply Chain Transparency</a>
+                <a class="link-color fs-6 py-2" href="#">Sitemap</a>
+            </div>
+        </div>
+        <hr>
+        <!-- social links -->
+        <div class="social-links d-flex flex-column justify-content-center align-items-center">
+            <ul class="links d-flex">
+                <li class="px-2">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="20px" width="20px" viewBox="0 0 20 20">
+                    <circle fill="#939595" r="10" cy="10" cx="10"></circle>
+                    <path fill="#fff" d="M 13.9 12.9 l 0.4 -2.9 l -2.8 0 l 0 -1.9 c 0 -0.8 0.4 -1.6 1.6 -1.6 l 1.3 0 l 0 -2.5 c 0 0 -1.1 -0.2 -2.2 -0.2 c -2.3 0 -3.8 1.4 -3.8 3.9 l 0 2.2 l -2.5 0 l 0 2.9 l 2.5 0 l 0 7 c 0.5 0.1 1 0.1 1.6 0.1 c 0.5 0 1.1 0 1.6 -0.1 l 0 -7 l 2.3 0 z"></path>
+                </svg></a></li>
+                <li class="px-2">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="20px" width="20px" viewBox="0 0 20 20">
+                        <path fill="#939595" d="M 15.751 0.961 L 18.818 0.961 L 12.118 8.619 L 20 19.039 L 13.828 19.039 L 8.995 12.719 L 3.464 19.039 L 0.395 19.039 L 7.561 10.848 L 0 0.961 L 6.328 0.961 L 10.698 6.738 L 15.751 0.961 Z M 14.675 17.203 L 16.374 17.203 L 5.405 2.7 L 3.581 2.7 L 14.675 17.203 Z"></path>
+                        </svg></a>
+                </li>
+                <li class="px-2">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="20px" width="20px" viewBox="0 0 20 20">
+                        <path fill="#939595" d="M2,0h16c1.1,0,2,0.9,2,2v16c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"></path><path fill="#fff" d="M6.7,15.8H4.2V6.7h2.5V15.8z M16.7,15.8h-2.5v-4.7c0-2.8-3.3-2.6-3.3,0v4.7H8.3V6.7h2.5v1.5c1.2-2.2,5.8-2.3,5.8,2.1V15.8z"></path><circle fill="#fff" cx="5.5" cy="4.13" r="1.5"></circle>
+                        </svg></a>
+                </li>
+                <li class="px-2">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="20px" width="20px" viewBox="0 0 20 20">
+                        <path fill="#939595" d="M 19.6 5.2 c -0.1 -0.4 -0.3 -0.8 -0.6 -1.1 c -0.3 -0.3 -0.7 -0.5 -1.1 -0.7 C 16.2 3 10 3 10 3 S 3.8 3 2.2 3.4 C 1.8 3.5 1.4 3.8 1.1 4.1 C 0.8 4.4 0.5 4.8 0.4 5.2 C 0 6.8 0 10 0 10 s 0 3.3 0.4 4.8 c 0.1 0.4 0.3 0.8 0.6 1.1 c 0.3 0.3 0.7 0.5 1.1 0.7 c 1.6 0.4 7.8 0.4 7.8 0.4 s 6.2 0 7.8 -0.4 c 0.4 -0.1 0.8 -0.3 1.1 -0.7 c 0.3 -0.3 0.5 -0.7 0.6 -1.1 C 20 13.3 20 10 20 10 S 20 6.8 19.6 5.2 z"></path>
+                        <path fill="#fff" d="M 8 13 l 5.2 -3 L 8 7.1 V 13 z"></path>
+                        </svg></a>
+                </li>
+            </ul>
+            <h5 class="fs-7 link-color fs-7 py-2">©2024 Cisco Systems, Inc.</h5>
+        </div>
+    </div>
+    </main>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- js -->
+    <script src="main.js"></script>
+</body>
+</html>
